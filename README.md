@@ -13,7 +13,7 @@ To keep this project limited in scope and act as a proof of concept, the only gr
 <param>  = <id> : <id>
 ```
 
-Notice how both of these begin with an `<id>`? This is the primary motivation for the lookahead parser.
+Notice how both of these begin with an `<id>`? This is the primary motivation for the lookahead parser. I need to be able to differentiate between an upcoming <idlist> and a <param>.
 
 Note
 ---
