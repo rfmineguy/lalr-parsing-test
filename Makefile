@@ -7,5 +7,5 @@ always:
 	mkdir -p out
 clean:
 	rm -r out
-out/main:
-	gcc $(SOURCES) -o $@
+out/main: $(SOURCES)
+	gcc $^ -o $@
