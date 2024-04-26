@@ -15,6 +15,11 @@ To keep this project limited in scope and act as a proof of concept, the only gr
 
 Notice how both of these begin with an `<id>`? This is the primary motivation for the lookahead parser.
 
+Note
+---
+I have reused some code I developed for [Spaz](https://github.com/rfmineguy/spaz)
+* tokenizer.h/c
+
 Build
 ---
 ```sh
