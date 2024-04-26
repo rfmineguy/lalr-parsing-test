@@ -23,9 +23,6 @@ int main() {
 		while ((reduced = lalr_reduce(&lctx, &node)) != 0) {
 			lalr_pop_n(&lctx, reduced);
 			lalr_push_astnode(&lctx, node);
-
-			// skip_next set in lalr_reduce if necessary
-			//  this would be set when the lookahead was used
 			if (lctx.skip_next == 1) {
 				tctx_advance(&ctx);
 				lctx.lookahead = tctx_get_next(&ctx);
