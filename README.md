@@ -32,3 +32,8 @@ Usage
 ./out/main
 ```
 - Note: Even though this usage exists, it is hard coded to pull from `code.rf`
+
+Third Party Code
+---
+- [sv.h](https://github.com/tsoding/sv)
+- [cvector](https://github.com/eteran/c-vector)
